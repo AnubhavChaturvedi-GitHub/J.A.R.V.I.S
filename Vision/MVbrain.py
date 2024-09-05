@@ -83,4 +83,3 @@ def mobile_vision_brain(encoded_image):
 
 
 
-

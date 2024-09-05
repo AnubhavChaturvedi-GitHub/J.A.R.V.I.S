@@ -5,11 +5,11 @@ from Data.DLG_Data import online_dlg,offline_dlg
 import random
 from co_brain import Jarvis
 from TextToSpeech.Fast_DF_TTS import speak
-from Automation.Battery import check_plug
+from Automation.Battery  import check_plug
 from Time_Operations.throw_alert import check_schedule,check_Alam
 
-Alam_path = r"C:\Users\chatu\Desktop\J.A.R.V.I.S.1.0\Alam_data.txt"
-file_path = r'C:\Users\chatu\Desktop\J.A.R.V.I.S.1.0\schedule.txt'
+Alam_path = r"F:\Jarvis\Alam_data.txt"
+file_path = r'F:\Jarvis\schedule.txt'
 
 ran_online_dlg = random.choice(online_dlg)
 ran_offline_dlg = random.choice(offline_dlg)
@@ -40,4 +40,4 @@ def main():
     else:
         Alert(ran_offline_dlg)
 
-main()
+main() 

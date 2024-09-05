@@ -34,7 +34,7 @@ def encode_image_to_base64(image_path):
         encoded_string = base64.b64encode(image_file.read()).decode('utf-8')
     return encoded_string
 
-def brain(encoded_image):
+def vision_brain(encoded_image):
     url = "https://api.deepinfra.com/v1/openai/chat/completions"
 
     headers = {
@@ -80,13 +80,3 @@ def brain(encoded_image):
         print(f"Error: API request failed with status code {response.status_code}")
         return None
 
-if __name__ == "__main__":
-    while True:
-        x = input("Enter your command: ")
-        if "what is this" in x:
-            image_path = "captured_image.png"
-            if capture_image_and_save(image_path):
-                encoded_image = encode_image_to_base64(image_path)
-                answer = brain(encoded_image)
-                if answer:
-                    print(answer, end="", flush=True)
