@@ -9,6 +9,7 @@ from Time_Operations.brain import input_manage,input_manage_Alam
 from Features.check_internet_speed import get_internet_speed
 from Brain.brain import Main_Brain
 from Features.create_file import create_file
+from Weather_Check.check_weather import get_weather_by_address
 
 numbers = ["1:","2:","3:","4:","5:","6:","7:","8:","9:"]
 spl_numbers = ["11:","12:"]
@@ -57,6 +58,10 @@ def check_inputs():
             elif output_text.startswith("create"):
                 if "file" in output_text:
                     create_file(output_text)
+            elif "weather" in output_text:
+                location = output_text.split(" ")[-1]
+                weather_data = get_weather_by_address(location)
+                speak(weather_data)
             else:
                 Auto_main_brain(output_text)
 
