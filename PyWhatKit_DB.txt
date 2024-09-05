@@ -1,0 +1,36 @@
+Date: 7/8/2024
+Time: 1:26
+Phone Number: +1234567890
+Message: Hello, this is a near real-time automated message!
+--------------------
+Date: 7/8/2024
+Time: 1:28
+Phone Number: +919606348280
+Message: Hello, this is a near real-time automated message!
+--------------------
+Date: 7/8/2024
+Time: 1:38
+Phone Number: +919606348280
+Message: hey this is demo
+--------------------
+Date: 7/8/2024
+Time: 1:41
+Phone Number: +919606348280
+Image: captured_image.png
+Caption: 
+--------------------
+Date: 7/8/2024
+Time: 1:57
+Phone Number: +919606348280
+Message: hey this is demo
+--------------------
+Date: 7/8/2024
+Time: 2:6
+Phone Number: +919606348280
+Message: message is hello how can i assist you
+--------------------
+Date: 7/8/2024
+Time: 2:9
+Phone Number: +919606348280
+Message: hello i am doing great
+--------------------
