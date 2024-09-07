@@ -5,7 +5,6 @@
 [![Twitter][twitter-shield]][twitter-url]
 [![YouTube][youtube-shield]][youtube-url]
 [![Telegram][telegram-shield]][telegram-url]
-[![GitHub repo](https://img.shields.io/badge/Repository-GitHub-brightgreen.svg)](https://github.com/AnubhavChaturvedi-GitHub/J.A.R.V.I.S.git)
 
 **Welcome to J.A.R.V.I.S!**  
 J.A.R.V.I.S (Just A Rather Very Intelligent System) is an advanced AI assistant inspired by Iron Man's Jarvis, designed to assist with various tasks, from navigating websites to controlling your PC with natural language commands.
