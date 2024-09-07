@@ -79,4 +79,3 @@ def vision_brain(encoded_image):
     else:
         print(f"Error: API request failed with status code {response.status_code}")
         return None
-
