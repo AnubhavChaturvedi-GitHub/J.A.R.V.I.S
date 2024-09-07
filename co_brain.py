@@ -14,6 +14,7 @@ from Vision.MVbrain import *
 from Weather_Check.check_weather import get_weather_by_address
 from Whatsapp_automation.wa import send_msg_wa
 from Device_info.info import get_info
+from TextToImage.gen_image import generate_image
 
 
 numbers = ["1:","2:","3:","4:","5:","6:","7:","8:","9:"]
@@ -81,6 +82,11 @@ def check_inputs():
                 speak(ans)
             elif "send message on whatsapp" in output_text:
                 send_msg_wa()
+            elif "generate image" in output_text:
+                 text = output_text.replace("generate image","")
+                 text = text.strip()
+                 generate_image(text)
+                 speak("image generated successfully")
             else:
                 Auto_main_brain(output_text)
                 get_info(output_text)
@@ -95,4 +101,3 @@ def Jarvis():
     t1.join()
     t2.join()
 
-#c
