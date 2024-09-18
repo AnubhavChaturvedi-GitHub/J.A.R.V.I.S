@@ -35,4 +35,4 @@ def main():
     else:
         Alert(ran_offline_dlg)
 
-main() 
+main()

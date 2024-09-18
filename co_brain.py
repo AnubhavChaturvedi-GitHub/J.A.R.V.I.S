@@ -15,7 +15,12 @@ from Weather_Check.check_weather import get_weather_by_address
 from Whatsapp_automation.wa import send_msg_wa
 from Device_info.info import get_info
 from TextToImage.gen_image import generate_image
-
+from Features.mike_health import mike_health
+from Features.speaker_health import speaker_health_test
+from Features.br_persentage import check_br_persentage
+from Features.set_br import set_brightness_windows
+from Features.set_get_volume import *
+from Features.check_running_app import *
 
 numbers = ["1:","2:","3:","4:","5:","6:","7:","8:","9:"]
 spl_numbers = ["11:","12:"]
@@ -87,6 +92,24 @@ def check_inputs():
                  text = text.strip()
                  generate_image(text)
                  speak("image generated successfully")
+            elif "check mike" in output_text or "check mike health" in output_text or "check microphone" in output_text:
+                 mike_health()
+            elif "check speaker health" in output_text or "check speaker" in output_text:
+                 speaker_health_test()
+            elif "check brightness percentage" in output_text:
+                 check_br_persentage()
+            elif "set brightness percentage" in output_text:
+                 set = output_text.replace("set brightness percentage","")
+                 set_brightness_windows(int(set))
+            elif "check volume level" in output_text:
+                get_volume_windows()
+                 
+            elif "set volume level" in output_text:
+                 set = output_text.replace("set volume level","")
+                 set = set.replace("%","")
+                 set_volume_windows(int(set))
+            elif "check running application" in output_text:
+                 check_running_app()
             else:
                 Auto_main_brain(output_text)
                 get_info(output_text)
