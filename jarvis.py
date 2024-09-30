@@ -7,9 +7,10 @@ from co_brain import Jarvis
 from TextToSpeech.Fast_DF_TTS import speak
 from Automation.Battery  import check_plug
 from Time_Operations.throw_alert import check_schedule,check_Alam
+from os import getcwd
 
-Alam_path = r"F:\Jarvis\Alam_data.txt"
-file_path = r'F:\Jarvis\schedule.txt'
+Alam_path = f"{getcwd()}\\Alam_data.txt"
+file_path = f'{getcwd()}\\schedule.txt'
 
 ran_online_dlg = random.choice(online_dlg)
 ran_offline_dlg = random.choice(offline_dlg)

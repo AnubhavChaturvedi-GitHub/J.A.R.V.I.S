@@ -1,0 +1,3 @@
+[console_scripts]
+poe = poe_api_wrapper.cli:main
+
