@@ -1,5 +1,5 @@
 
 
 
-User : what is the meaning of ai
-LLM :AI stands for Artificial Intelligence. It refers to the simulation of human intelligence processes by machines, especially computer systems. These processes include learning (the acquisition of information and rules for using the information), reasoning (using the rules to reach approximate or definite conclusions), and self-correction. AI is a broad field with many applications, including natural language processing, machine learning, robotics, and more.
+User : hello jarvis
+LLM :Hello there! So, what's the haps? I'm all circuits and ready to go. What's on your mind?

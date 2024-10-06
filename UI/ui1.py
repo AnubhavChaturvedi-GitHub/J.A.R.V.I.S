@@ -29,7 +29,7 @@ class JarvisUI(QWidget):
         # Microphone image (zoomed and larger)
         self.mic_label = QLabel(self)
         self.add_gif_to_label(self.mic_label,
-                              r"C:\Users\chatu\Desktop\J.A.R.V.I.S.1.0\UI\cbe227_fb70e39e9dd94e30bbe30c48b2367dd8~mv2.gif",
+                              r"C:\Users\chatu\Desktop\J.A.R.V.I.S\UI\cbe227_fb70e39e9dd94e30bbe30c48b2367dd8~mv2.gif",
                               size=(720, 220), alignment=Qt.AlignCenter)  # Initial size and alignment
         self.mic_label.setAlignment(Qt.AlignCenter)
         self.mic_label.mousePressEvent = self.start_listening

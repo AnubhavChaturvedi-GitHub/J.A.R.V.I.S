@@ -3,6 +3,7 @@ import os
 import webbrowser
 from threading import Timer
 import threading
+from jarvis import main
 
 app = Flask(__name__)
 
@@ -39,4 +40,9 @@ def UI():
     Timer(1, open_browser).start()
     app.run(host='0.0.0.0', port=4444)  # Set debug=False for production
     
-UI()
+t1 = threading.Thread(target=UI)
+t2 = threading.Thread(target=main)
+t1.start()
+t2.start()
+t1.join()
+t2.join()

@@ -35,5 +35,3 @@ def main():
         t6.join()
     else:
         Alert(ran_offline_dlg)
-
-main()
