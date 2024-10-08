@@ -1,0 +1,11 @@
+
+You : hello jarvis how is going
+jarvis : Hello! As an AI assistant, I don't have personal experiences or emotions like humans do. However, I'm functioning properly and ready to assist you with any questions or tasks you may have. Is there anything specific you'd like help with today?
+You : jarvis my name is anubhav chaturvedi
+jarvis : Hello Anubhav Chaturvedi! It's nice to meet you. How can I assist you today? Whether you need help with coding, have a technical question, or require information on any other topic, please feel free to ask. I'm here to provide assistance to the best of my abilities. Is there anything specific you'd like help with regarding your name or otherwise?
+You : hey jarvis how are you
+jarvis : Hello! I'm doing well, thank you for asking. How may I assist you today?
+You : jarvis who is anubhav chaturvedi
+jarvis : I don't have specific information about Anubhav Chaturvedi. Could you provide more context or details about this person? I'd be happy to help you find information about them if you need it.
+You : hello jarvis
+jarvis : Hello! How can I assist you today?
